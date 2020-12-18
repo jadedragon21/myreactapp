@@ -6,16 +6,21 @@
     list-style-position: inside;
     font-family: 'Dancing Script', cursive;
    font-size: x-large;
+  
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    
   }
 }
 
@@ -42,8 +47,19 @@
     transform: rotate(360deg);
   }
   
-}
+ 
 
+}
+ Body{
+  background-color: transparent;
+  background-position: center;
+    background-size: cover;
+    background-image: url('https://weblium.com/blog/wp-content/uploads/2019/11/image17.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 {}

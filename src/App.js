@@ -1,4 +1,5 @@
 // import logo from "./logo.svg";
+import logo from './assets/hammyReact.png'
 import "./App.css";
 import MyComponent from "./MyComponent";
 import Name from "./Name";
@@ -29,6 +30,7 @@ function App() {
       </header> */}
       <h1>What is the purpose of life?</h1>
       <h2>To live in the magic of now---Bgok!</h2>
+      <img src={logo} className="App-logo" alt="logo" />
       <MyComponent />
       <Name  customName="Merideth"/>
       <Name  customName="Merideth"/>
